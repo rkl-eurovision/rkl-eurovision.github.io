@@ -38,11 +38,23 @@
     </script>
     <hr/>
     <div id="footer">
-        <button onclick="myFunction()">🇸🇪</button>
-        <button onclick="myFunction()">🇺🇸</button>
+        <button onclick="myFunctionSE()">🇸🇪</button>
+        <button onclick="myFunctionEN()">🇺🇸</button>
 
 <script>
-function myFunction() {
+function myFunctionEN() {
+    fetch('rules.json')
+            .then(function (response) {
+                return response.json();
+            })
+            .then(function (data) {
+                appendDataEN(data);
+            })
+            .catch(function (err) {
+                console.log('error: ' + err);
+            });
+        }
+function myFunctionSE() {
     fetch('rules.json')
             .then(function (response) {
                 return response.json();
@@ -63,6 +75,18 @@ function appendDataEN(data) {
             for (var i = 0; i < data.length; i++) {
                 var li = document.createElement("li");
                 li.innerHTML = data[i].en;
+                mainContainer.appendChild(li);
+            }
+        }
+    
+    function appendDataSE(data) {
+            var mainContainer = document.getElementById("rules");
+    mainContainer.innerHTML="";
+    
+            var ol = document.createElement("OL")
+            for (var i = 0; i < data.length; i++) {
+                var li = document.createElement("li");
+                li.innerHTML = data[i].se;
                 mainContainer.appendChild(li);
             }
         }
