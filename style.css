@@ -61,7 +61,7 @@ h1 {
 	padding-bottom: 30px;
 }
 
-.wrapper, html, body {
+#content, html, body {
     height: 100%;
     margin: 0;
 }
