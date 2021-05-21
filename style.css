@@ -30,8 +30,7 @@ button:hover {
 
 #footer{
 	background-color: #294dc1;
-	flex-grow: 1;
-	flex-basis: 100%;
+	flex: 1;
 }
 
 h1 {
