@@ -1,5 +1,5 @@
 body {
-	background-color: #0a0a2d;
+	background-color: #294dc1;
 	font-family: 'Roboto', sans-serif;
 	text-align: center;
 	color: #ffffff;
@@ -34,6 +34,7 @@ h1 {
 #content {
 	display: flex;
 	justify-content: center;
+	background-color:  #0a0a2d;
 }
 
 #rules {
