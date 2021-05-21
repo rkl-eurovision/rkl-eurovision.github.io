@@ -30,6 +30,8 @@ button:hover {
 
 #footer{
 	background-color: #294dc1;
+	position: fixed;
+	bottom: 0;
 }
 
 h1 {
