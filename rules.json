@@ -1,19 +1,27 @@
 [
 {
+    "se": "Rip-off av tidigare nummer eller nyligen populärkulturell låt",
+    "en": "If a entry seems to be a ripoff of a pre-existing song"
+},
+{
     "se": "Svensk eller svensk-klingande namn är delaktig i numret",
     "en": "Swede or Swedish sounding name involved in the entry"
+},
+{
+    "se": "Tonartshöjning",
+    "en": "Mandatory key-change"
 },
 {
     "se": "Läder & Latex (BDSM)",
     "en": "Leather & Latex (BDSM)"
 },
 {
-    "se": "Rip-off av tidigare nummer eller nyligen populärkulturell låt",
-    "en": "If a entry seems to be a ripoff of a pre-existing song"
+    "se": "Folkdräkt",
+    "en": "National Dress"
 },
 {
-    "se": "Tonartshöjning",
-    "en": "Mandatory key-change"
+    "se": "Stora trummor eller instrument på scenen",
+    "en": "Big drums or other instruments on stage"
 },
 {
     "se": "Plagg rivs bort under numret",
@@ -40,16 +48,8 @@
     "en": "Trying to act surprised"
 },
 {
-    "se": "Folkdräkt",
-    "en": "National Dress"
-},
-{
     "se": "''Hello fellow kids''",
     "en": "''Hello fellow kids''"
-},
-{
-    "se": "Stora trummor eller instrument på scenen",
-    "en": "Big drums or other instruments on stage"
 },
 {
     "se": "''Thank you Amsterdam/Rotterdam for this amazing show''",
@@ -60,8 +60,8 @@
     "en": "Speaking in Dutch (or half-assed attempt)"
 },
 {
-    "se": "🇫🇷 🇬🇧 🇮🇹 🇪🇸 🇩🇪 Big 5 - 1 Point",
-    "en": "🇫🇷 🇬🇧 🇮🇹 🇪🇸 🇩🇪 Big 5 - 1 Point"
+    "se": "🇫🇷 🇬🇧 🇮🇹 🇪🇸 🇩🇪 Big Five - 1 Point",
+    "en": "🇫🇷 🇬🇧 🇮🇹 🇪🇸 🇩🇪 Big Five - 1 Point"
 },
 {
     "se": "🇪🇪 🇬🇪 🇱🇻 🇱🇹 🇲🇩 🇺🇦 Mother Russia - 12 points",
