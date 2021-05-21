@@ -55,13 +55,6 @@ h1 {
 	align-items: stretch;
 }
 
-#content2 {
-	background-color:  #0a0a2d;
-	display: flex;
-	justify-content: center;
-	flex-wrap: wrap;
-	align-items: stretch;
-}
 
 #rules {
 
