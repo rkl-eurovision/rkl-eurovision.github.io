@@ -47,7 +47,7 @@ h1 {
 	background-color:  #0a0a2d;
 	display: flex;
 	justify-content: center;
-	flex-grow: 1;
+	flex-wrap: wrap;
 }
 
 #rules {
