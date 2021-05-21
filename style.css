@@ -63,13 +63,13 @@ h1 {
 #rules {
 
 	text-align: left;
-	font-size: 1.1em;
-	line-height: 2.3em;
+	font-size: 1em;
+	line-height: 2em;
 	column-count: 1;
 	background-color:  #0a0a2d;
 	padding-bottom: 30px;
-	padding-right: 30px;
-	padding-left: 30px;
+	padding-right: 20px;
+	padding-left: 20px;
 }
 
 #wrapper, html, body {
