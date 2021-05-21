@@ -15,6 +15,10 @@
     <div id="content">
         <div id="header"><h1>Eurovision Drinking Game</h1></div>
         <div id="rules"></div>
+        <div id="footer">
+        <button onclick="myFunctionSE()">🇸🇪</button>
+        <button onclick="myFunctionEN()">🇺🇸</button>
+        </div>
     </div>
     <script>
         fetch('rules.json')
@@ -38,9 +42,7 @@
         }
     </script>
     
-    <div id="footer">
-        <button onclick="myFunctionSE()">🇸🇪</button>
-        <button onclick="myFunctionEN()">🇺🇸</button>
+
 
 <script>
 function myFunctionEN() {
@@ -92,6 +94,6 @@ function appendDataEN(data) {
             }
         }
 </script>
-    </div>
+
 </body>
 </html>
