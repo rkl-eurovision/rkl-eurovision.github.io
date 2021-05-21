@@ -1,6 +1,5 @@
 body {
-	background-color: rgba(3,11,39,1);
-	color: #E9E9E9;
+	background-color: #0a0a2d;
 	font-family: 'Roboto', sans-serif;
 	text-align: center;
     }
@@ -23,7 +22,9 @@ button:hover {
 }
 
 #footer{
+	background-color: #294dc1;
 }
+
 h1 {
 	font-size: 2em;
 	font-weight: 700;
@@ -33,6 +34,7 @@ h1 {
 	display: flex;
 	justify-content: center;
 }
+
 #rules {
 	text-align: left;
 	font-size: 1.1em;
