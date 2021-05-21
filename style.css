@@ -37,8 +37,8 @@ button:hover {
 }
 
 h1 {
-	font-size: 1.8em;
-	font-weight: 700;
+	font-size: 1.5em;
+	font-weight: 500;
 }
 
 #header {
@@ -70,6 +70,7 @@ h1 {
 	padding-bottom: 30px;
 	padding-right: 20px;
 	padding-left: 20px;
+	font-weight: 400;
 }
 
 #wrapper, html, body {
