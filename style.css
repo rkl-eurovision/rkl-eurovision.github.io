@@ -14,8 +14,9 @@ li {
 button{
 	font-size:2em;
 	border: transparent;
-	background-color: transparent;
-	padding: 20px;
+	border-radius: 8px;
+	background-color: white;
+	padding: 30px;
 	
 }
 
