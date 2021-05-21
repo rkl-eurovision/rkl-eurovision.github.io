@@ -36,12 +36,12 @@ background-color:  #0a0a2d;
 }
 
 #content {
-	display: flex;
-	justify-content: center;
 	background-color:  #0a0a2d;
 }
 
 #rules {
+	display: flex;
+	justify-content: center;
 	text-align: left;
 	font-size: 1.1em;
 	line-height: 2.3em;
