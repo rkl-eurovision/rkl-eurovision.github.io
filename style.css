@@ -47,7 +47,7 @@ h1 {
 	height: fit-content;
 }
 
-#content {
+#wrapper {
 	background-color:  #0a0a2d;
 	display: flex;
 	justify-content: center;
@@ -66,7 +66,7 @@ h1 {
 	padding-bottom: 30px;
 }
 
-#content, html, body {
+#wrapper, html, body {
     height: 100%;
     margin: 0;
 }
