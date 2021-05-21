@@ -53,6 +53,8 @@ function myFunction() {
             .catch(function (err) {
                 console.log('error: ' + err);
             });
+        }
+
 function appendDataEN(data) {
             var mainContainer = document.getElementById("rules");
             var ol = document.createElement("OL")
@@ -61,7 +63,7 @@ function appendDataEN(data) {
                 li.innerHTML = data[i].en;
                 mainContainer.appendChild(li);
             }
-}
+        }
 </script>
     </div>
 </body>
