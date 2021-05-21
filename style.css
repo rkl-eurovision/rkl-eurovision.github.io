@@ -1,0 +1,50 @@
+body {
+	background-color: rgba(3,11,39,1);
+	color: #E9E9E9;
+	font-family: 'Roboto', sans-serif;
+	text-align: center;
+    }
+
+li {
+	line-height: normal;
+	padding-bottom: 20px;
+}
+
+button{
+	font-size:2em;
+	border: transparent;
+	background-color: transparent;
+	
+}
+
+button:hover {
+	cursor:pointer;
+}
+
+table {
+    margin-left: auto ;
+    margin-right: auto ;
+    }
+
+.footer{
+	color:#000;
+	text-align:center;
+
+}
+h1 {
+	font-size: 2em;
+	font-weight: 700;
+}
+
+#content {
+	display: flex;
+	justify-content: center;
+}
+#rules {
+	text-align: left;
+	font-size: 1.1em;
+	line-height: 2.3em;
+	column-count: 1;
+
+
+}

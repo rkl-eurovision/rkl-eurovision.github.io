@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Eurovision Drinking Game</title>
+    <link type="text/css" media="screen" rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div id="header"><h1>Eurovision Drinking Game</h1></div>
+    <div id="content">
+        <div id="rules"></div>
+    </div>
+    <script>
+        fetch('rules.json')
+            .then(function (response) {
+                return response.json();
+            })
+            .then(function (data) {
+                appendData(data);
+            })
+            .catch(function (err) {
+                console.log('error: ' + err);
+            });
+        function appendData(data) {
+            var mainContainer = document.getElementById("rules");
+            var ol = document.createElement("OL")
+            for (var i = 0; i < data.length; i++) {
+                var li = document.createElement("li");
+                li.innerHTML = data[i].se;
+                mainContainer.appendChild(li);
+            }
+        }
+    </script>
+    <hr/>
+    <div id="footer">
+        <button onclick="myFunction()">🇸🇪</button>
+        <button onclick="myFunction()">🇺🇸</button>
+        <button onclick="myFunction()">Click me</button>
+        <p id="demo"></p>
+
+<script>
+function myFunction() {
+    var mainContainer = document.getElementById("rules");
+    var div = document.createElement("div")
+    div.innerHTML = "hello world";
+    mainContainer.appendChild(div);
+}
+</script>
+    </div>
+</body>
+</html>
