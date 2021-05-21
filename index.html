@@ -48,15 +48,19 @@ function myFunction() {
                 return response.json();
             })
             .then(function (data) {
-                appendData(data);
+                appendDataEN(data);
             })
             .catch(function (err) {
                 console.log('error: ' + err);
             });
-    var mainContainer = document.getElementById("rules");
-    var div = document.createElement("div")
-    div.innerHTML = "hello world";
-    mainContainer.appendChild(div);
+function appendDataEN(data) {
+            var mainContainer = document.getElementById("rules");
+            var ol = document.createElement("OL")
+            for (var i = 0; i < data.length; i++) {
+                var li = document.createElement("li");
+                li.innerHTML = data[i].en;
+                mainContainer.appendChild(li);
+            }
 }
 </script>
     </div>
