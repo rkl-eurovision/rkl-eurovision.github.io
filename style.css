@@ -11,6 +11,9 @@ li {
 	padding-bottom: 16px;
 }
 
+img {
+height:2.5ex;}
+
 button{
 	font-size: .85rem;
     border: transparent;
